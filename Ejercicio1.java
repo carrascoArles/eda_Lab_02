@@ -1,14 +1,11 @@
-public int[] invertirArray(int[] A){
-    int com=0,ult=0;
-   for(int i=0;i<A.length();i++){
-      com=A[i];
-      A[i]=A[A.length()-ult];
-      A[A.length()-ult]=com;
-      ult++;
-
-   }
+public int[] invertirArray(int[] Array){
+    int aux=0
+    for (int i=0; i<Array.length/2; i++) {
+        aux = Array[i];
+        Array[i] = Array[Array.length-1-i];
+        Array[Array.length-1-i] = aux;
+    }
  
 
- return A[];
+ return Array[];
 }
-
