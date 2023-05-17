@@ -11,16 +11,16 @@ public class Ejercicio03{
 
     }
     public static void imprimirTriangulo(int altura, int alturaTotal){
-        if (altura == 0){
+        if (altura == -1){
         }
         else {
-            String linea = "";
+            String linea = " ";
             for (int i = 0;i<alturaTotal-altura;i++){
-                linea += "*";
+                linea = linea+"*";
             }
             System.out.println(linea);
 
-            imprimirTriangulo(altura--,alturaTotal);
+            imprimirTriangulo(altura-1,alturaTotal);
             
         }
 
