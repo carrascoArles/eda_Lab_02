@@ -5,7 +5,8 @@ public class Ejercicio2 {
 
         mostrarArray(array);
 
-        for (int i = 0; i < d; i++)
+        int numRot = d % array.length;
+        for (int i = 0; i < numRot; i++)
             array = rotarIzquierdaArray(array);
         
         System.out.print(" -> ");
