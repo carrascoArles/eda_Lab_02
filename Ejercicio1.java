@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-public int[] invertirArray(int[] A){
-  
- 
-
- return Ain;
-=======
 
 import java.util.*;
 
@@ -57,5 +50,5 @@ private static void imprimir(int[] array){
 	  
 
     
->>>>>>> eje1Arles
+
 }
