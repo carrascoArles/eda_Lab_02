@@ -17,5 +17,13 @@ public class Node<T> {
     public void setData(T data) {
         this.data = data;
     }
+	//Metodos para obtener y establecer el siguiente nodo 
+    public Node<T> getNextNode() {
+        return nextNode;
+    }
+
+    public void setNextNode(Node<T> nextNode) {
+        this.nextNode = nextNode;
+    }
 
 }
