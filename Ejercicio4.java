@@ -10,4 +10,12 @@ public class Node<T> {
         this.data = data;
         this.nextNode = null;
     }
+	//Metodos set y get
+    public T getData() {
+        return data;
+    }
+    public void setData(T data) {
+        this.data = data;
+    }
+
 }
